@@ -1,4 +1,4 @@
-# Pastomatic - Publish as single compressed exe
+# Pastomatic - Publish
 # Run from repo root: .\publish.ps1
 
 $ProjectPath = "$PSScriptRoot\Pastomatic\Pastomatic.csproj"
@@ -10,9 +10,6 @@ dotnet publish $ProjectPath `
     -c Release `
     -r win-x64 `
     --self-contained false `
-    -p:PublishSingleFile=true `
-    -p:EnableCompressionInSingleFile=true `
-    -p:IncludeNativeLibrariesForSelfExtract=true `
     -o $PublishDir
 
 if ($LASTEXITCODE -eq 0) {
@@ -29,10 +26,8 @@ if ($LASTEXITCODE -eq 0) {
         }
     }
 
-    $exe = Get-Item "$PublishDir\Pastomatic.exe"
     Write-Host "`nPublished successfully!" -ForegroundColor Green
-    Write-Host "  Output: $PublishDir\Pastomatic.exe" -ForegroundColor White
-    Write-Host "  Size:   $([math]::Round($exe.Length / 1MB, 1)) MB" -ForegroundColor White
+    Write-Host "  Output: $PublishDir" -ForegroundColor White
 } else {
     Write-Host "Publish failed!" -ForegroundColor Red
     exit 1
