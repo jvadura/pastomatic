@@ -36,9 +36,10 @@ Saves the image to a folder and copies a `Read /mnt/e/...` command to your clipb
 
 <!-- TODO: Replace with actual screenshots -->
 
-![Popup](img/popup.png)
-
-*Dark, borderless, minimal. Shows image preview with two action buttons. Auto-closes after copying.*
+<p align="center">
+  <img src="img/popup.png" width="380" alt="Pastomatic popup">
+</p>
+<p align="center"><em>Dark, borderless, minimal. Shows image preview with two action buttons. Auto-closes after copying.</em></p>
 
 ## Quick Start
 
