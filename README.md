@@ -36,9 +36,7 @@ Saves the image to a folder and copies a `Read /mnt/e/...` command to your clipb
 
 <!-- TODO: Replace with actual screenshots -->
 
-| Action Popup | Settings |
-|:---:|:---:|
-| ![Popup](docs/popup.png) | ![Settings](docs/settings.png) |
+![Popup](img/popup.png)
 
 *Dark, borderless, minimal. Shows image preview with two action buttons. Auto-closes after copying.*
 
