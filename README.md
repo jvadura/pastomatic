@@ -52,7 +52,7 @@ Saves the image to a folder and copies a `Read /mnt/e/...` command to your clipb
 
 ```bash
 # Clone
-git clone https://github.com/YOUR_USERNAME/pastomatic.git
+git clone https://github.com/jvadura/pastomatic.git
 cd pastomatic
 
 # Build
@@ -100,7 +100,7 @@ Edit `appsettings.json` or use the Settings window (right-click tray icon → Se
 
 ## Architecture
 
-.NET 10 WPF system tray app. Infrastructure ported from [Voicomat](https://github.com/YOUR_USERNAME/voicomat) (a voice transcription tool using the same patterns).
+.NET 10 WPF system tray app. Infrastructure ported from [Voicomat](https://github.com/jvadura/voicomat) (a voice transcription tool using the same patterns).
 
 | Component | What |
 |-----------|------|
