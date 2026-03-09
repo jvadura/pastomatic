@@ -24,6 +24,7 @@ Desktop.ini
 # Project docs (not for public repo)
 CLAUDE.md
 DESIGN.md
+claude.compact.*.md
 
 # Local settings (personal API keys, endpoints)
 appsettings.local.json
